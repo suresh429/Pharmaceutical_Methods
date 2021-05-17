@@ -6,12 +6,12 @@ android {
         release {
             storeFile file('E:\\Android projects\\Omics Projects\\Pharmaceutical Methods\\jks\\phmethods.jks')
             storePassword 'phmethods'
-            keyAlias 'phmethods'
             keyPassword 'phmethods'
+            keyAlias 'Phmethods'
         }
     }
     compileSdkVersion 30
-    buildToolsVersion '30.0.2'
+    buildToolsVersion '30.0.3'
 
     defaultConfig {
         applicationId "com.journals.phmethods"
